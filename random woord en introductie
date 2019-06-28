@@ -1,0 +1,18 @@
+import re
+  import random
+  import time
+
+#dit zijn de woorden
+  counter = 0
+  woorden = ["informatica", "informatiekunde", "spelletje", "aardigheidje", "scholier", "fotografie", "waardebepaling", "specialiteit", "verzekering", "universiteit", "heesterperk"]
+
+
+  print("Laten we beginnen!")
+#naam invoegen
+  name = input("Hoi, hoe heet je?\n")
+
+
+#het woord wordt random uit de woordenlijst gehaald
+  woord = random.choice(woorden)
+  lengtewoord = len(woord)
+  temp = "-" * lengtewoord
