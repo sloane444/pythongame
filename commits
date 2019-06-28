@@ -1,3 +1,5 @@
+def main ():
+
 import re
   import random
   import time
@@ -117,3 +119,4 @@ restart = input("Wil je nog een keer spelen? Antwoord alleen met ja of nee alsje
      main() 
   else:
      quit("Jammer.") 
+main()
