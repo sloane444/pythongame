@@ -16,3 +16,20 @@ import re
   woord = random.choice(woorden)
   lengtewoord = len(woord)
   temp = "-" * lengtewoord
+  
+  while True:
+    choice = input("Wil je galgje spelen?\n")
+
+    if choice == "JA" or choice == "Ja" or choice == "ja":
+      break      
+    elif choice == "NEE" or choice == "Nee" or choice == "nee":
+            quit("Jammer.")
+    else:
+        print("Antwoord alsjeblieft alleen met ja of nee :)")
+        continue
+
+#introductie       
+  print("Hallo " + name + ", we spelen het spel galgje, raad letters en als je het woord weet kan je het als geheel typen!")
+  time.sleep(1)
+  print("Je hebt 5 levens!")
+  print("het woord heeft " + str(lengtewoord) + " letters")
